@@ -486,3 +486,53 @@ document.addEventListener('visibilitychange', () => {
 if (typeof module !== 'undefined' && module.exports) {
     module.exports = { HotelWebsite, utils };
 }
+
+
+
+// Manage sending email
+document.getElementById("contact-form").addEventListener("submit", function(e) {
+    e.preventDefault();
+
+    const nome = document.getElementById("nome").value;
+    const email = document.getElementById("email").value;
+    const telefono = document.getElementById("telefono").value;
+    const checkin = document.getElementById("checkin").value;
+    const checkout = document.getElementById("checkout").value;
+    const messaggio = document.getElementById("messaggio").value;
+
+    // Costruzione corpo email
+    let corpoEmail = `Nome: ${nome}%0A`;
+    corpoEmail += `Email: ${email}%0A`;
+    if (telefono) corpoEmail += `Telefono: ${telefono}%0A`;
+    if (checkin) corpoEmail += `Check-in: ${checkin}%0A`;
+    if (checkout) corpoEmail += `Check-out: ${checkout}%0A`;
+    corpoEmail += `%0AMessaggio:%0A${messaggio}`;
+
+    const mailto = `mailto:casa.ospite.bs@fondazionecamplani.it?subject=Nuovo contatto dal web&body=${corpoEmail}`;
+
+    // Mostra popup
+    const popup = document.getElementById("popup");
+    popup.style.display = "flex";
+
+    // Gestione click OK
+    document.getElementById("popup-ok").onclick = function() {
+        popup.style.display = "none";
+        
+        // Metodo affidabile per aprire email
+        try {
+            window.location.href = mailto;
+        } catch (error) {
+            // Fallback: creazione dinamica link
+            const link = document.createElement('a');
+            link.href = mailto;
+            link.style.display = 'none';
+            document.body.appendChild(link);
+            link.click();
+            document.body.removeChild(link);
+        }
+        
+        // Reset form
+        document.getElementById("contact-form").reset();
+    };
+});
+
