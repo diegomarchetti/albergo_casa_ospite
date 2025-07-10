@@ -1,0 +1,836 @@
+<!DOCTYPE html>
+<html lang="it">
+  <head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Albergo Casa dell'Ospite - Brescia</title>
+    <meta name="description" content="Albergo Casa dell'Ospite a Brescia - Struttura a due stelle con 34 camere, ristorante e sala meeting. Vicino alle strutture ospedaliere e universitarie.">
+    <link rel="stylesheet" href="styles/main.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;700&family=Playfair+Display:wght@400;500;600&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
+  </head>
+  <body>
+    <!-- Header -->
+    <header class="header">
+      <nav class="navbar">
+        <div class="nav-container">
+          <div class="nav-brand">
+            <h1>Casa dell'Ospite</h1>
+            <div class="stars">
+              <i class="fas fa-star"></i>
+              <i class="fas fa-star"></i>
+            </div>
+          </div>
+          <button class="nav-toggle" aria-label="Toggle navigation">
+            <span></span>
+            <span></span>
+            <span></span>
+          </button>
+          <ul class="nav-menu">
+            <li>
+              <a href="#home" class="nav-link active">Home</a>
+            </li>
+            <li>
+              <a href="#camere" class="nav-link">Camere</a>
+            </li>
+            <li>
+              <a href="#ristorante" class="nav-link">Ristorante</a>
+            </li>
+            <li>
+              <a href="#servizi" class="nav-link">Servizi</a>
+            </li>
+            <li>
+              <a href="#prezzi" class="nav-link">Prezzi</a>
+            </li>
+            <li>
+              <a href="#contatti" class="nav-link">Contatti</a>
+            </li>
+            <li>
+              <a href="#prenota" class="nav-link cta-button">Prenota Ora</a>
+            </li>
+          </ul>
+        </div>
+      </nav>
+    </header>
+    <main>
+      <!-- Hero Section -->
+      <section id="home" class="hero">
+        <div class="hero-content">
+          <div class="hero-text">
+            <h1>Benvenuti all'Albergo Casa dell'Ospite</h1>
+            <p class="hero-subtitle">Una struttura a due stelle nel cuore di Brescia, dove l'accoglienza confortevole e familiare è la nostra caratteristica principale.</p>
+            <div class="hero-features">
+              <div class="feature">
+                <i class="fas fa-wifi"></i>
+                <span>WiFi Gratuito</span>
+              </div>
+              <div class="feature">
+                <i class="fas fa-car"></i>
+                <span>Parcheggio Incluso</span>
+              </div>
+              <div class="feature">
+                <i class="fas fa-coffee"></i>
+                <span>Colazione Inclusa</span>
+              </div>
+              <div class="feature">
+                <i class="fas fa-clock"></i>
+                <span>Accesso 24h</span>
+              </div>
+            </div>
+            <div class="hero-buttons">
+              <a href="#prenota" class="btn btn-primary">Prenota Ora</a>
+              <a href="#camere" class="btn btn-secondary">Scopri le Camere</a>
+            </div>
+          </div>
+          <div class="hero-gallery">
+            <div class="gallery-container">
+              <img src="images/home_01.jpg" alt="Hotel Casa Ospite - Esterno" class="gallery-image active">
+              <img src="images/home_02.jpg" alt="Hotel Casa Ospite - Reception" class="gallery-image">
+              <img src="images/home_03.jpg" alt="Hotel Casa Ospite - Corridoio" class="gallery-image">
+              <img src="images/home_04.jpg" alt="Hotel Casa Ospite - Sala comune" class="gallery-image">
+              <img src="images/home_05.jpg" alt="Hotel Casa Ospite - Giardino" class="gallery-image">
+            </div>
+            <div class="gallery-dots">
+              <button class="dot active" data-slide="0"></button>
+              <button class="dot" data-slide="1"></button>
+              <button class="dot" data-slide="2"></button>
+              <button class="dot" data-slide="3"></button>
+              <button class="dot" data-slide="4"></button>
+            </div>
+          </div>
+        </div>
+      </section>
+      <!-- About Section -->
+      <section class="about">
+        <div class="container">
+          <div class="about-content">
+            <div class="about-text">
+              <h2>La Nostra Storia</h2>
+              <p>L'Albergo "Casa dell'ospite" è una struttura a due stelle ubicata in una delle zone più tranquille ed eleganti della città, vicino alle maggiori strutture ospedaliere ed universitarie.</p>
+              <p>Esso è facilmente raggiungibile dalla stazione ferroviaria con mezzi di linea e dai caselli di Brescia ovest-centro del sistema autostradale A4 Milano-Venezia e A21 Brescia-Torino.</p>
+              <p>L'accoglienza confortevole e familiare è la caratteristica della struttura.</p>
+            </div>
+            <div class="about-info">
+              <div class="info-card">
+                <img src="images/disegno_domus.png" alt="Casa di Cura Domus Salutis">
+                <h3>Fondazione Teresa Camplani</h3>
+                <div class="contact-info">
+                  <p>
+                    <i class="fas fa-map-marker-alt"></i> via Lazzaretto, 3 - 25123 Brescia
+                  </p>
+                  <p>
+                    <i class="fas fa-phone"></i> 030.3709442 / 030.3709842
+                  </p>
+                  <p>
+                    <i class="fas fa-clock"></i> Orari: dalle 08:00 alle 17:00
+                  </p>
+                  <p>
+                    <i class="fas fa-envelope"></i> casa.ospite.bs@fondazionecamplani.it
+                  </p>
+                  <p>
+                    <i class="fas fa-certificate"></i> CIR 017029-ALB-00026
+                  </p>
+                  <p>
+                    <i class="fas fa-id-card"></i> CIN IT017029A12YTKHQCI
+                  </p>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </section>
+      <!-- Camere Section -->
+      <section id="camere" class="camere">
+        <div class="container">
+          <div class="section-header">
+            <h2>Le Nostre Camere</h2>
+            <p>34 camere confortevoli con tutti i servizi necessari per un soggiorno piacevole</p>
+          </div>
+          <div class="camere-content">
+            <div class="camere-gallery">
+              <div class="image-grid">
+                <img src="images/camere_01.jpg" alt="Camera Hotel Casa Ospite" class="gallery-item" data-lightbox="camere">
+                <img src="images/camere_02.jpg" alt="Camera Hotel Casa Ospite" class="gallery-item" data-lightbox="camere">
+                <img src="images/camere_01.jpg" alt="Camera Hotel Casa Ospite" class="gallery-item" data-lightbox="camere">
+                <img src="images/camere_02.jpg" alt="Camera Hotel Casa Ospite" class="gallery-item" data-lightbox="camere">
+              </div>
+            </div>
+            <div class="camere-info">
+              <div class="features-grid">
+                <div class="feature-card">
+                  <i class="fas fa-bed"></i>
+                  <h3>34 Camere</h3>
+                  <p>Singole e doppie con bagno privato</p>
+                </div>
+                <div class="feature-card">
+                  <i class="fas fa-snowflake"></i>
+                  <h3>Aria Condizionata</h3>
+                  <p>Tutte le camere sono climatizzate</p>
+                </div>
+                <div class="feature-card">
+                  <i class="fas fa-tv"></i>
+                  <h3>TV</h3>
+                  <p>Televisione in ogni camera</p>
+                </div>
+                <div class="feature-card">
+                  <i class="fas fa-wheelchair"></i>
+                  <h3>Accessibilità</h3>
+                  <p>Camere per disabili disponibili</p>
+                </div>
+              </div>
+            </div>
+          </div>
+          <div class="camere-description">
+            <p>L'Albergo dispone di 34 camere (singole-doppie) con bagno, dotate di aria condizionata e TV. Disponiamo di camere per disabili e portatori di handicap. Nel prezzo della camera sono compresi la prima colazione e il parcheggio auto.</p>
+          </div>
+        </div>
+      </section>
+      <!-- Ristorante Section -->
+      <section id="ristorante" class="ristorante">
+        <div class="container">
+          <div class="section-header">
+            <h2>Il Nostro Ristorante</h2>
+            <p>Piatti semplici della tradizione gastronomica italiana</p>
+          </div>
+          <div class="ristorante-content">
+            <div class="ristorante-gallery">
+              <div class="image-grid">
+                <img src="images/ristorante_01.jpg" alt="Ristorante Hotel Casa Ospite" class="gallery-item" data-lightbox="ristorante">
+                <img src="images/ristorante_02.jpg" alt="Ristorante Hotel Casa Ospite" class="gallery-item" data-lightbox="ristorante">
+                <img src="images/ristorante_03.jpg" alt="Ristorante Hotel Casa Ospite" class="gallery-item" data-lightbox="ristorante">
+                <img src="images/ristorante_04.jpg" alt="Ristorante Hotel Casa Ospite" class="gallery-item" data-lightbox="ristorante">
+                <img src="images/ristorante_05.jpg" alt="Ristorante Hotel Casa Ospite" class="gallery-item" data-lightbox="ristorante">
+                <img src="images/ristorante_06.jpg" alt="Ristorante Hotel Casa Ospite" class="gallery-item" data-lightbox="ristorante">
+              </div>
+            </div>
+            <div class="ristorante-info">
+              <div class="menu-card">
+                <h3>Il Nostro Menù</h3>
+                <div class="menu-items">
+                  <div class="menu-item">
+                    <i class="fas fa-utensils"></i>
+                    <span>Primo piatto</span>
+                  </div>
+                  <div class="menu-item">
+                    <i class="fas fa-drumstick-bite"></i>
+                    <span>Secondo piatto</span>
+                  </div>
+                  <div class="menu-item">
+                    <i class="fas fa-leaf"></i>
+                    <span>Buffet di verdura</span>
+                  </div>
+                  <div class="menu-item">
+                    <i class="fas fa-apple-alt"></i>
+                    <span>Frutta</span>
+                  </div>
+                  <div class="menu-item">
+                    <i class="fas fa-tint"></i>
+                    <span>Acqua</span>
+                  </div>
+                </div>
+                <div class="price">
+                  <span class="price-label">Prezzo completo:</span>
+                  <span class="price-value">€15,00</span>
+                </div>
+                <p class="reservation-note">È indispensabile la prenotazione.</p>
+              </div>
+            </div>
+          </div>
+        </div>
+      </section>
+      <!-- Servizi Section -->
+      <section id="servizi" class="servizi">
+        <div class="container">
+          <div class="section-header">
+            <h2>I Nostri Servizi</h2>
+            <p>Tutto quello che serve per un soggiorno confortevole</p>
+          </div>
+          <div class="servizi-grid">
+            <div class="servizio-card">
+              <div class="servizio-icon">
+                <i class="fas fa-users"></i>
+              </div>
+              <h3>Sala Meeting</h3>
+              <p>Sala da 50 posti completa di attrezzature audiovisive per meeting e convegni.</p>
+            </div>
+            <div class="servizio-card">
+              <div class="servizio-icon">
+                <i class="fas fa-wifi"></i>
+              </div>
+              <h3>WiFi Gratuito</h3>
+              <p>Accesso gratuito ad Internet attraverso la rete wireless dell'Albergo.</p>
+            </div>
+            <div class="servizio-card">
+              <div class="servizio-icon">
+                <i class="fas fa-car"></i>
+              </div>
+              <h3>Parcheggio</h3>
+              <p>Ampio parcheggio gratuito per tutti gli ospiti dell'albergo.</p>
+            </div>
+            <div class="servizio-card">
+              <div class="servizio-icon">
+                <i class="fas fa-clock"></i>
+              </div>
+              <h3>Accesso 24h</h3>
+              <p>L'accesso alla struttura è possibile 24 ore su 24.</p>
+            </div>
+            <div class="servizio-card">
+              <div class="servizio-icon">
+                <i class="fas fa-coffee"></i>
+              </div>
+              <h3>Colazione</h3>
+              <p>Prima colazione inclusa nel prezzo della camera.</p>
+            </div>
+            <div class="servizio-card">
+              <div class="servizio-icon">
+                <i class="fas fa-wheelchair"></i>
+              </div>
+              <h3>Accessibilità</h3>
+              <p>Struttura accessibile con camere dedicate per persone con disabilità.</p>
+            </div>
+          </div>
+        </div>
+      </section>
+      <!-- Prezzi Section -->
+      <section id="prezzi" class="prezzi">
+        <div class="container">
+          <div class="section-header">
+            <h2>Tariffe</h2>
+            <p>Tariffe dal 01/04/2023</p>
+          </div>
+          <div class="prezzi-content">
+            <div class="prezzi-table-container">
+              <table class="prezzi-table">
+                <thead>
+                  <tr>
+                    <th>Singola</th>
+                    <th>DUS*</th>
+                    <th>Doppia</th>
+                    <th>Pulizia</th>
+                    <th>Durata</th>
+                    <th>Colazione</th>
+                  </tr>
+                </thead>
+                <tbody>
+                  <tr>
+                    <td data-label="Singola">50€</td>
+                    <td data-label="DUS">60€</td>
+                    <td data-label="Doppia">75€</td>
+                    <td data-label="Pulizia">Sì</td>
+                    <td data-label="Durata">Al giorno</td>
+                    <td data-label="Colazione">Sì</td>
+                  </tr>
+                  <tr>
+                    <td data-label="Singola">900€</td>
+                    <td data-label="DUS">1.400€</td>
+                    <td data-label="Doppia">1.620€</td>
+                    <td data-label="Pulizia">1 volta a settimana</td>
+                    <td data-label="Durata">30 giorni</td>
+                    <td data-label="Colazione">Sì</td>
+                  </tr>
+                </tbody>
+              </table>
+            </div>
+            <div class="prezzi-info">
+              <div class="info-cards">
+                <div class="info-card">
+                  <h3>Note Importanti</h3>
+                  <ul>
+                    <li>
+                      <strong>*DUS</strong> (Camera doppia uso singola)
+                    </li>
+                    <li>I prezzi comprendono pernottamento, prima colazione e parcheggio auto</li>
+                    <li>È <strong>OBBLIGATORIA</strong> la prenotazione telefonica </li>
+                    <li>Soggiorni prolungati (minimo 30gg o multipli) con pagamento anticipato</li>
+                  </ul>
+                </div>
+                <div class="info-card special-offer">
+                  <h3>Convenzioni Studenti</h3>
+                  <div class="price-highlight">
+                    <span class="price">30€</span>
+                    <span class="period">a notte</span>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </section>
+      <!-- FAQ Section -->
+      <section class="faq">
+        <div class="container">
+          <div class="section-header">
+            <h2>Domande Frequenti</h2>
+            <p>Le risposte alle domande più comuni</p>
+          </div>
+          <div class="faq-container">
+            <div class="faq-item">
+              <button class="faq-question">
+                <span>È necessaria la prenotazione?</span>
+                <i class="fas fa-chevron-down"></i>
+              </button>
+              <div class="faq-answer">
+                <p>
+                  <br>Sì, è obbligatoria la prenotazione telefonica. Potete contattarci al 030.3709442 o 030.3709842.
+                </p>
+              </div>
+            </div>
+            <div class="faq-item">
+              <button class="faq-question">
+                <span>Cosa è incluso nel prezzo?</span>
+                <i class="fas fa-chevron-down"></i>
+              </button>
+              <div class="faq-answer">
+                <p>
+                  <br>Nel prezzo della camera sono compresi: pernottamento, prima colazione e parcheggio auto.
+                </p>
+              </div>
+            </div>
+            <div class="faq-item">
+              <button class="faq-question">
+                <span>Avete camere per persone con disabilità?</span>
+                <i class="fas fa-chevron-down"></i>
+              </button>
+              <div class="faq-answer">
+                <p>
+                  <br>Sì, disponiamo di camere appositamente attrezzate per disabili e portatori di handicap.
+                </p>
+              </div>
+            </div>
+            <div class="faq-item">
+              <button class="faq-question">
+                <span>È disponibile il WiFi?</span>
+                <i class="fas fa-chevron-down"></i>
+              </button>
+              <div class="faq-answer">
+                <p>
+                  <br>Sì, è possibile accedere gratuitamente ad Internet attraverso la rete wireless dell'Albergo.
+                </p>
+              </div>
+            </div>
+            <div class="faq-item">
+              <button class="faq-question">
+                <span>Quali sono gli orari di accesso?</span>
+                <i class="fas fa-chevron-down"></i>
+              </button>
+              <div class="faq-answer">
+                <p>
+                  <br>L'accesso alla struttura è possibile 24 ore su 24.
+                </p>
+              </div>
+            </div>
+          </div>
+        </div>
+      </section>
+      <!-- Recensioni Section -->
+      <section class="recensioni">
+        <div class="container">
+          <div class="section-header">
+            <h2>Cosa Dicono i Nostri Ospiti</h2>
+            <p>Le recensioni di chi ha soggiornato da noi</p>
+          </div>
+          <div class="recensioni-grid">
+            <div class="recensione-card">
+              <div class="stars">
+                <i class="fas fa-star"></i>
+                <i class="fas fa-star"></i>
+                <i class="fas fa-star"></i>
+                <i class="fas fa-star"></i>
+                <i class="far fa-star"></i>
+              </div>
+              <p>"Personale gentilissimo e professionale, accoglienza familiare, ci siamo trovati benissimo io e mia moglie in questi tre giorni di permanenza a Casa dell'Ospite."</p>
+              <div class="recensione-author">
+                <strong>Massimo S.</strong>
+                <span>Giugno 2025</span>
+              </div>
+            </div>
+            <div class="recensione-card">
+              <div class="stars">
+                <i class="fas fa-star"></i>
+                <i class="fas fa-star"></i>
+                <i class="fas fa-star"></i>
+                <i class="fas fa-star"></i>
+                <i class="far fa-star"></i>
+              </div>
+              <p>"Ottima la posizione, pulito, comodo da raggiungere e per spostarsi, personale accogliente e gentile, colazione ottima e cena discreta, camera ampia e luminosa."</p>
+              <div class="recensione-author">
+                <strong>Emanuele B.</strong>
+                <span>Maggio 2025</span>
+              </div>
+            </div>
+            <div class="recensione-card">
+              <div class="stars">
+                <i class="fas fa-star"></i>
+                <i class="fas fa-star"></i>
+                <i class="fas fa-star"></i>
+                <i class="fas fa-star"></i>
+                <i class="far fa-star"></i>
+              </div>
+              <p>"Albergo semplice pulito, personale gentile cordiale nel risolverti un qualsiasi problema. Comodissimo se un parente è ricoverato alla Domus Salutis. Cibo buono"</p>
+              <div class="recensione-author">
+                <strong>Patrizia C.</strong>
+                <span>Gennaio 2025</span>
+              </div>
+            </div>
+            <div class="recensione-card">
+              <div class="stars">
+                <i class="fas fa-star"></i>
+                <i class="fas fa-star"></i>
+                <i class="fas fa-star"></i>
+                <i class="fas fa-star"></i>
+                <i class="fas fa-star"></i>
+              </div>
+              <p>"Struttura molto accogliente e familiare. Personale gentile e disponibile. Ottima posizione vicino all'ospedale."</p>
+              <div class="recensione-author">
+                <strong>
+                  <br>Maria R. </strong>
+                <span>
+                  <br>Marzo 2024 </span>
+              </div>
+            </div>
+            <div class="recensione-card">
+              <div class="stars">
+                <i class="fas fa-star"></i>
+                <i class="fas fa-star"></i>
+                <i class="fas fa-star"></i>
+                <i class="fas fa-star"></i>
+                <i class="fas fa-star"></i>
+              </div>
+              <p>"Camere pulite e confortevoli. La colazione è abbondante e il parcheggio gratuito è molto comodo."</p>
+              <div class="recensione-author">
+                <strong>
+                  <br>
+                  <br>Giuseppe L. </strong>
+                <span>
+                  <br>
+                  <br>Febbraio 2024 </span>
+              </div>
+            </div>
+            <div class="recensione-card">
+              <div class="stars">
+                <i class="fas fa-star"></i>
+                <i class="fas fa-star"></i>
+                <i class="fas fa-star"></i>
+                <i class="fas fa-star"></i>
+                <i class="far fa-star"></i>
+              </div>
+              <p>"Soggiorno piacevole, ambiente tranquillo. Il ristorante offre piatti della tradizione italiana molto buoni."</p>
+              <div class="recensione-author">
+                <strong>
+                  <br>
+                  <br>Anna F. </strong>
+                <span>
+                  <br>
+                  <br>Gennaio 2024 </span>
+              </div>
+            </div>
+          </div>
+        </div>
+      </section>
+      <!-- Contatti Section -->
+      <section id="contatti" class="contatti">
+        <div class="container">
+          <div class="section-header">
+            <h2>Dove Siamo</h2>
+            <p>Facilmente raggiungibile dal centro di Brescia</p>
+          </div>
+          <div class="contatti-content">
+            <div class="contatti-info">
+              <div class="contact-card">
+                <h3>Informazioni di Contatto</h3>
+                <div class="contact-details">
+                  <div class="contact-item">
+                    <i class="fas fa-map-marker-alt"></i>
+                    <div>
+                      <strong>Indirizzo</strong>
+                      <p>Via Lazzaretto, 3 <br>25123 Brescia </p>
+                    </div>
+                  </div>
+                  <div class="contact-item">
+                    <i class="fas fa-phone"></i>
+                    <div>
+                      <strong>Telefono</strong>
+                      <p>030.3709442 <br>030.3709842 </p>
+                    </div>
+                  </div>
+                  <div class="contact-item">
+                    <i class="fas fa-clock"></i>
+                    <div>
+                      <strong>Orari</strong>
+                      <p>dalle 08:00 alle 17:00</p>
+                    </div>
+                  </div>
+                  <div class="contact-item">
+                    <i class="fas fa-envelope"></i>
+                    <div>
+                      <strong>Email</strong>
+                      <p>casa.ospite.bs@fondazionecamplani.it</p>
+                    </div>
+                  </div>
+                </div>
+              </div>
+              <div id="popup" class="popup">
+                <div class="popup-content">
+                  <p>
+                    <strong>Come funziona l'invio:</strong>
+                    <br>
+                    <br> Il messaggio verrà inviato tramite il programma email installato sul tuo dispositivo (come Outlook, Mail, ecc.). <br>
+                    <br>
+                    <strong>⚠️ Importante:</strong> Se non hai un programma email configurato o stai usando un computer pubblico/condiviso, il messaggio potrebbe non essere inviato. <br>
+                    <br>
+                    <strong>In tal caso:</strong>
+                    <br> • Invia una email manualmente a: <strong>casa.ospite.bs@fondazionecamplani.it</strong>
+                    <br> • Oppure contattaci al: <strong>030.3709442</strong>
+                    <br>
+                    <br>
+                    <em>Nota: Non è da intendersi come prenotazione definitiva fino alla ricezione della nostra conferma.</em>
+                  </p>
+                  <button id="popup-ok">OK</button>
+                </div>
+              </div>
+            </div>
+            <div class="map-container">
+              <iframe src="https://www.google.com/maps/embed/v1/place?q=Albergo+Casa+dell'Ospite&key=AIzaSyBFw0Qbyq9zTFTd-tUY6dZWTgaQzuU17R8" width="100%" height="550" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
+            </div>
+          </div>
+          <br>
+          <div id="popup" class="popup">
+            <div class="popup-content">
+              <p>
+                <strong>Come funziona l'invio:</strong>
+                <br>
+                <br> Il messaggio verrà inviato tramite il programma email installato sul tuo dispositivo (come Outlook, Mail, ecc.). <br>
+                <br>
+                <strong>⚠️ Importante:</strong> Se non hai un programma email configurato o stai usando un computer pubblico/condiviso, il messaggio potrebbe non essere inviato. <br>
+                <br>
+                <strong>In tal caso:</strong>
+                <br> • Invia una email manualmente a: <strong>casa.ospite.bs@fondazionecamplani.it</strong>
+                <br> • Oppure contattaci al: <strong>030.3709442</strong>
+                <br>
+                <br>
+                <em>Nota: Non è da intendersi come prenotazione definitiva fino alla ricezione della nostra conferma.</em>
+              </p>
+              <button id="popup-ok">OK</button>
+            </div>
+          </div>
+        </div>
+        </div>
+        </div>
+      </section>
+      <!-- Prenota Section -->
+      <section id="prenota" class="prenota">
+        <div class="container">
+          <div class="prenota-content">
+            <div class="prenota-text">
+              <h2>Prenota il Tuo Soggiorno</h2>
+              <p>Contattaci per prenotare la tua camera. Il nostro staff sarà lieto di assisterti per organizzare il tuo soggiorno a Brescia.</p>
+              <div class="prenota-features">
+                <div class="feature">
+                  <i class="fas fa-check"></i>
+                  <span>Prenotazione obbligatoria</span>
+                </div>
+                <div class="feature">
+                  <i class="fas fa-check"></i>
+                  <span>Colazione e parcheggio inclusi</span>
+                </div>
+                <div class="feature">
+                  <i class="fas fa-check"></i>
+                  <span>Camere per disabili disponibili</span>
+                </div>
+              </div>
+            </div>
+            <div class="prenota-actions">
+              <a href="tel:0303709442" class="btn btn-primary btn-large">
+                <i class="fas fa-phone"></i> Chiama Ora: 030.3709442 </a>
+              <a href="mailto:casa.ospite.bs@fondazionecamplani.it" class="btn btn-secondary btn-large">
+                <i class="fas fa-envelope"></i> Invia Email </a>
+            </div>
+          </div>
+        </div>
+      </section>
+      <!-- Modulo di RIchiesta Informazioni -->
+      <section class="richiesta-info">
+        <div class="container">
+          <div class="contact-form-wrapper">
+            <div class="contact-form-card">
+              <h3>Richiesta Informazioni</h3>
+              <form class="contact-form" id="contact-form">
+                <div class="form-group">
+                  <label for="nome">Nome *</label>
+                  <input type="text" name="user_name" id="nome" placeholder="Nome" required>
+                </div>
+                <div class="form-group">
+                  <label for="email">Email *</label>
+                  <input type="email" name="user_email" id="email" placeholder="Email" required>
+                </div>
+                <div class="form-group">
+                  <label for="telefono">Telefono</label>
+                  <input type="tel" name="user_phone" id="telefono" placeholder="Telefono" required>
+                </div>
+                <div class="form-group">
+                  <label for="checkin">Data Check-in</label>
+                  <input type="date" name="check_in" id="checkin">
+                </div>
+                <div class="form-group">
+                  <label for="checkout">Data Check-out</label>
+                  <input type="date" name="check_out" id="checkout">
+                </div>
+                <div class="form-group">
+                  <label for="messaggio">Messaggio *</label>
+                  <textarea name="message" id="messaggio" placeholder="Indicare il numero di ospiti, la tipologia di camera desiderata (singola/doppia) e le eventuali esigenze particolari" required></textarea>
+                </div>
+                <button type="submit" class="btn btn-primary">Invia Messaggio</button>
+              </form>
+            </div>
+          </div>
+        </div>
+      </section>
+      <!-- Links Section -->
+      <section class="links">
+        <div class="container">
+          <div class="links-grid">
+            <div class="links-card">
+              <h3>Visitare Brescia e dintorni</h3>
+              <div class="links-list">
+                <a href="http://www.museomillemiglia.it/" target="_blank">Museo Mille Miglia</a>
+                <a href="http://www.bresciamostre.it/" target="_blank">Brescia Mostre</a>
+                <a href="http://www.bresciamusei.com/" target="_blank">Brescia Musei</a>
+                <a href="http://www.teatrogrande.it/" target="_blank">Teatro Grande di Brescia</a>
+                <a href="http://www.vittoriale.it/" target="_blank">Il Vittoriale degli Italiani</a>
+                <a href="http://www.arterupestre.it/" target="_blank">Arte rupestre</a>
+              </div>
+            </div>
+            <div class="links-card">
+              <h3>Link utili</h3>
+              <div class="links-list">
+                <a href="http://www.comune.brescia.it/" target="_blank">Comune di Brescia</a>
+                <a href="http://www.provincia.brescia.it/" target="_blank">Provincia di Brescia</a>
+                <a href="http://www.lagodigarda.it/" target="_blank">Comunità del Garda</a>
+                <a href="http://www.bresciatourism.it/" target="_blank">Brescia Tourism</a>
+              </div>
+            </div>
+          </div>
+        </div>
+      </section>
+    </main>
+    <!-- Footer -->
+    <footer class="footer">
+      <div class="container">
+        <div class="footer-content">
+          <div class="footer-info">
+            <h3>Casa dell'Ospite</h3>
+            <p>Albergo a due stelle nel cuore di Brescia</p>
+            <div class="footer-contact">
+              <p>
+                <i class="fas fa-map-marker-alt"></i> Via Lazzaretto, 3 - 25123 Brescia
+              </p>
+              <p>
+                <i class="fas fa-phone"></i> 030.3709442 / 030.3709842
+              </p>
+              <p>
+                <i class="fas fa-envelope"></i> casa.ospite.bs@fondazionecamplani.it
+              </p>
+            </div>
+          </div>
+          <div class="footer-links">
+            <h4>Link Rapidi</h4>
+            <ul>
+              <li>
+                <a href="#home">Home</a>
+              </li>
+              <li>
+                <a href="#camere">Camere</a>
+              </li>
+              <li>
+                <a href="#ristorante">Ristorante</a>
+              </li>
+              <li>
+                <a href="#servizi">Servizi</a>
+              </li>
+              <li>
+                <a href="#prezzi">Prezzi</a>
+              </li>
+              <li>
+                <a href="#contatti">Contatti</a>
+              </li>
+            </ul>
+          </div>
+          <div class="footer-certifications">
+            <h4>Certificazioni</h4>
+            <p>CIR 017029-ALB-00026</p>
+            <p>CIN IT017029A12YTKHQCI</p>
+          </div>
+        </div>
+        <div class="footer-bottom">
+          <p>&copy; 2024 Albergo Casa dell'ospite. Tutti i diritti riservati.</p>
+          <p>Fondazione Teresa Camplani</p>
+        </div>
+      </div>
+    </footer>
+    <!-- Lightbox Modal -->
+    <div id="lightbox" class="lightbox">
+      <div class="lightbox-content">
+        <span class="lightbox-close">&times;</span>
+        <img id="lightbox-image" src="" alt="">
+        <div class="lightbox-nav">
+          <button id="lightbox-prev" class="lightbox-btn">&#10094;</button>
+          <button id="lightbox-next" class="lightbox-btn">&#10095;</button>
+        </div>
+      </div>
+    </div>
+    <script src="scripts/main.js"></script>
+    <!-- Modal Lavori di Ammodernamento -->
+    <div id="works-modal" class="works-modal">
+      <div class="works-modal-content">
+        <button class="close-btn" onclick="hideWorksModal()">
+          <i class="fas fa-times"></i>
+        </button>
+        <h2>🔧 Lavori di Ammodernamento</h2>
+        <p class="subtitle">Miglioriamo per offrirvi un servizio ancora migliore</p>
+        <div class="message">
+          <p>Per offrire un servizio ed una qualità sempre migliore, stiamo effettuando dei lavori di ammodernamento di tutta la struttura.</p>
+          <p>Durante i lavori alcuni servizi non saranno disponibili:</p>
+        </div>
+        <div class="dates-list">
+          <h4>
+            <i class="fas fa-calendar-alt"></i> Calendario dei lavori:
+          </h4>
+          <ul>
+            <li>
+              <strong>Dal 07/07/2025 al 07/09/2025:</strong> sarà garantito solo il servizio di Colazione
+            </li>
+            <li>
+              <strong>Dal 15/09/2025:</strong> le stanze saranno nuovamente prenotabili
+            </li>
+          </ul>
+        </div>
+        <div class="apology"> Ci scusiamo per il disagio e vi aspettiamo alla riapertura per farvi vivere un'esperienza ancora più confortevole. </div>
+        <div class="modal-buttons">
+          <button class="btn btn-primary" onclick="hideWorksModal()">
+            <i class="fas fa-check"></i> Ho capito </button>
+          <button class="btn btn-secondary" onclick="contactUs()">
+            <i class="fas fa-phone"></i> Contattaci </button>
+        </div>
+      </div>
+    </div>
+    <!-- EmailJS SDK -->
+    <script src="https://cdn.emailjs.com/dist/email.min.js"></script>
+    <script>
+      (function() {
+        emailjs.init("d2O7Nwsh5qBhvSOyu"); // Public Key
+      })();
+      document.getElementById('contact-form').addEventListener('submit', function(e) {
+        e.preventDefault();
+        emailjs.sendForm('service_9bqjyvw', 'template_v0hupxb', this) // <-- Sostituisci con il tuo vero Template ID
+          .then(function(response) {
+            alert('Richiesta inviata con successo!');
+            document.getElementById('contact-form').reset();
+          }, function(error) {
+            alert('Errore durante l\'invio: ' + JSON.stringify(error));
+          });
+      });
+    </script>
+  </body>
+</html>
